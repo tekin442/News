@@ -1,0 +1,179 @@
+﻿@model News_Admin.Models.AdminPanelListModel
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<script type="text/javascript">
+
+    function TemplateDropListChanged() {
+        var templateId = $('#setting_TemplateId').val();
+
+        var div = document.getElementById('Template');
+        if (templateId > 0) {
+            div.style.display = 'none';
+        }
+        else {
+            div.style.display = 'block';
+        }
+    }
+
+</script>
+
+<div class="container-fluid">
+
+    @using (Html.BeginForm("AddApplication", "Login", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="row">
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <p class="alert alert-success" id="successMessage">@TempData["SuccessMessage"]</p>
+            }
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.setting.AppName, "Uygulama Adı")
+                @Html.TextBoxFor(model => model.setting.AppName, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.setting.LogoUrl, "Logo")
+            </div>
+
+            <div class="form-group">
+                <input type="file" name="filelogo" class="button" />
+                @Html.Label("filelogo", " Dosya Uzantısı .png olmalıdır.")
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.setting.LogoUrl, "Açılış Görseli")
+            </div>
+
+            <div class="form-group">
+                <input type="file" name="fileacilis" class="button" />
+                @Html.Label("filelogo", " Dosya Uzantısı .png olmalıdır.")
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.setting.WebServiceUrl, "Web Servis Url")
+                @Html.TextBoxFor(model => model.setting.WebServiceUrl, new { @class = "form-control" })
+            </div>
+
+            @*<div class="form-group">
+                @Html.LabelFor(model => model.setting.AdmobBannerCode, "Admob Banner Code")
+                @Html.TextBoxFor(model => model.setting.AdmobBannerCode, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.setting.AdmobSplashCode, "Admob Splash Code")
+                @Html.TextBoxFor(model => model.setting.AdmobSplashCode, new { @class = "form-control" })
+            </div>*@
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateId, "Template")
+
+                    @Html.DropDownListFor(n => n.setting.TemplateId, new SelectList(Model.templateList, "Value", "Text", 0), "Template Seçiniz", new { @class = "form-control", onchange = "TemplateDropListChanged()" })
+                </div>
+
+            <div id="Template">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea1, "TemplateArea1")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea1, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.WebServiceUrl, "Web Servis Url") 
+                    @Html.TextBoxFor(model => model.setting.WebServiceUrl, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea2, "TemplateArea1")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea2, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea3, "TemplateArea3")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea3, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea4, "TemplateArea4")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea4, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea5, "TemplateArea5")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea5, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea6, "TemplateArea6")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea6, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea7, "TemplateArea7")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea7, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea8, "TemplateArea8")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea8, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea9, "TemplateArea9")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea9, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea10, "TemplateArea10")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea10, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea1, "TemplateArea11")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea11, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea12, "TemplateArea12")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea12, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea13, "TemplateArea13")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea13, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea14, "TemplateArea14")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea14, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.setting.TemplateArea15, "TemplateArea15")
+                    @Html.TextBoxFor(model => model.setting.TemplateArea15, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.setting.AppGuid, "Uygulama Guid Id: ")
+                @Html.DisplayFor(model => model.setting.AppGuid)
+            </div>
+
+
+            @Html.HiddenFor(m => m.setting.SettingId)
+            @Html.HiddenFor(m => m.setting.UserId)
+            @Html.HiddenFor(m => m.setting.AppGuid)
+            @Html.HiddenFor(m => m.setting.AdmobBannerCode)
+            @Html.HiddenFor(m => m.setting.AdmobSplashCode)
+
+            <input type="submit" class="btn btn-primary " value="Gönder" />
+
+        </div>
+
+
+
+    }
+</div>
+

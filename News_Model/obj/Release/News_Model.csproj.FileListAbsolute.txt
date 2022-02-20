@@ -1,0 +1,5 @@
+D:\Tez\Web\News\News_Model\bin\Release\News_Model.dll
+D:\Tez\Web\News\News_Model\bin\Release\News_Model.pdb
+D:\Tez\Web\News\News_Model\obj\Release\News_Model.dll
+D:\Tez\Web\News\News_Model\obj\Release\News_Model.pdb
+D:\Tez\Web\News\News_Model\obj\Release\News_Model.csproj.CoreCompileInputs.cache

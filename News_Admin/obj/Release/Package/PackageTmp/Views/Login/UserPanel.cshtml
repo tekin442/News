@@ -1,0 +1,13 @@
+﻿@model News_Admin.Models.AdminPanelListModel
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+@if (Model.user.RoleId == 2)
+{
+    @Html.Partial("_SuperUser")
+}
+else
+{
+    @Html.Partial("_StandartUser")
+}

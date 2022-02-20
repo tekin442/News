@@ -1,0 +1,12 @@
+D:\Tez\Web\News\News_Model\bin\Debug\News_Model.dll
+D:\Tez\Web\News\News_Model\bin\Debug\News_Model.pdb
+D:\Tez\Web\News\News_Model\obj\Debug\News_Model.csprojAssemblyReference.cache
+D:\Tez\Web\News\News_Model\obj\Debug\News_Model.csproj.CoreCompileInputs.cache
+D:\Tez\Web\News\News_Model\obj\Debug\News_Model.dll
+D:\Tez\Web\News\News_Model\obj\Debug\News_Model.pdb
+D:\Tez\Web\News_yedek\News_Model\bin\Debug\News_Model.dll
+D:\Tez\Web\News_yedek\News_Model\bin\Debug\News_Model.pdb
+D:\Tez\Web\News_yedek\News_Model\obj\Debug\News_Model.csproj.AssemblyReference.cache
+D:\Tez\Web\News_yedek\News_Model\obj\Debug\News_Model.csproj.CoreCompileInputs.cache
+D:\Tez\Web\News_yedek\News_Model\obj\Debug\News_Model.dll
+D:\Tez\Web\News_yedek\News_Model\obj\Debug\News_Model.pdb

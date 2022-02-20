@@ -1,0 +1,17 @@
+D:\Tez\Web\News\News_Data\bin\Release\News_Data.dll.config
+D:\Tez\Web\News\News_Data\bin\Release\News_Data.dll
+D:\Tez\Web\News\News_Data\bin\Release\News_Data.pdb
+D:\Tez\Web\News\News_Data\bin\Release\EntityFramework.dll
+D:\Tez\Web\News\News_Data\bin\Release\EntityFramework.SqlServer.dll
+D:\Tez\Web\News\News_Data\bin\Release\News_Model.dll
+D:\Tez\Web\News\News_Data\bin\Release\News_Model.pdb
+D:\Tez\Web\News\News_Data\bin\Release\EntityFramework.xml
+D:\Tez\Web\News\News_Data\bin\Release\EntityFramework.SqlServer.xml
+D:\Tez\Web\News\News_Data\obj\Release\News_Data.dll
+D:\Tez\Web\News\News_Data\obj\Release\News_Data.pdb
+D:\Tez\Web\News\News_Data\obj\Release\News_Data.Migrations.news2.resources
+D:\Tez\Web\News\News_Data\obj\Release\News_Data.Migrations.news21.resources
+D:\Tez\Web\News\News_Data\obj\Release\News_Data.csproj.GenerateResource.Cache
+D:\Tez\Web\News\News_Data\obj\Release\News_Data.csprojAssemblyReference.cache
+D:\Tez\Web\News\News_Data\obj\Release\News_Data.csproj.CoreCompileInputs.cache
+D:\Tez\Web\News\News_Data\obj\Release\News_Data.csproj.CopyComplete

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "280dc456-0728-4e3f-9366-709f69576cd3": {
+      "ProjectGuid": "280dc456-0728-4e3f-9366-709f69576cd3",
+      "DisplayName": "News_ExternalServices",
+      "ColorIndex": 0
+    },
+    "87961a7b-15af-4528-84b6-5830cc1f227f": {
+      "ProjectGuid": "87961a7b-15af-4528-84b6-5830cc1f227f",
+      "DisplayName": "News_MobileService",
+      "ColorIndex": 1
+    },
+    "6801ee5b-6dcb-4345-ac0d-b0e6ea1154c6": {
+      "ProjectGuid": "6801ee5b-6dcb-4345-ac0d-b0e6ea1154c6",
+      "DisplayName": "News_Adapter",
+      "ColorIndex": 2
+    },
+    "fe8f2d9f-2491-4613-9910-9988b7007a9c": {
+      "ProjectGuid": "fe8f2d9f-2491-4613-9910-9988b7007a9c",
+      "DisplayName": "News_Model",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

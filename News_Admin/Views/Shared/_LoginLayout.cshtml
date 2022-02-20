@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Framework Admin Panel</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+            .sidenav a {
+                padding: 6px 6px 6px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Haber Portalı</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">@Html.ActionLink("Uygulama Listesi", "UserPanel", "Login")</li>
+                <li>@Html.ActionLink("Uygulama Ekle", "AddNewApplication", "Login")</li>
+                <li>@Html.ActionLink("Çıkış", "Logout", "Login")</li>
+                @*<li><a href="#">Page 2</a></li>
+                  <li><a href="#">Page 3</a></li>*@
+            </ul>
+        </div>
+    </nav>
+
+    @*<div id="mySidenav" class="sidenav" style="padding-top:50px">
+
+        <li>@Html.ActionLink("Uygulama Listesi", "UserPanel", "Login")</li>
+        <a href="#">Application</a>
+        <a href="#">Tasarım</a>
+        <a href="#">Reklam</a>
+    </div>*@
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Mobil Haber Portalı</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

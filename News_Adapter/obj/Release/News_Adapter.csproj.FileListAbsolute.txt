@@ -1,0 +1,11 @@
+D:\Tez\Web\News\News_Adapter\bin\Release\News_Adapter.dll
+D:\Tez\Web\News\News_Adapter\bin\Release\News_Adapter.pdb
+D:\Tez\Web\News\News_Adapter\bin\Release\News_Model.dll
+D:\Tez\Web\News\News_Adapter\bin\Release\Newtonsoft.Json.dll
+D:\Tez\Web\News\News_Adapter\bin\Release\News_Model.pdb
+D:\Tez\Web\News\News_Adapter\bin\Release\Newtonsoft.Json.xml
+D:\Tez\Web\News\News_Adapter\obj\Release\News_Adapter.dll
+D:\Tez\Web\News\News_Adapter\obj\Release\News_Adapter.pdb
+D:\Tez\Web\News\News_Adapter\obj\Release\News_Adapter.csprojAssemblyReference.cache
+D:\Tez\Web\News\News_Adapter\obj\Release\News_Adapter.csproj.CoreCompileInputs.cache
+D:\Tez\Web\News\News_Adapter\obj\Release\News_Adapter.csproj.CopyComplete

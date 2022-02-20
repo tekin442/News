@@ -1,0 +1,19 @@
+﻿@model  News_Admin.Models.AdminPanelListModel
+
+<table>
+    <tr>
+        <td style="padding-right:20px; text-align:center; font-weight:bold;">Uygulama Adı</td>
+        <td style="padding-right:20px; text-align:center; font-weight:bold;">Logo</td>
+        <td style="padding-right:20px; text-align:center; font-weight:bold;">Web Servis Url</td>
+    </tr>
+    @foreach (var item in Model.settingList)
+    {
+        <tr>
+            <td style="padding-right:10px;">@Html.DisplayFor(modelItem => item.AppName)</td>
+            <td style="padding-right:10px;"> <img src="../UploadedFiles/Logos/@item.LogoUrl" width="80" height="40" /></td>
+            <td style="padding-right:10px;">@Html.DisplayFor(modelItem => item.WebServiceUrl)</td>
+            <td>@Html.ActionLink("Detay", "AddApplication", new { SettingId = item.SettingId })</td>
+            <td>@Html.ActionLink("Sil", "DeleteApplication", new { SettingId = item.SettingId })</td>
+        </tr>
+    }
+</table>

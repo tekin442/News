@@ -1,0 +1,11 @@
+D:\Tez\Web\News_yedek\News_Adapter\bin\Debug\News_Adapter.dll
+D:\Tez\Web\News_yedek\News_Adapter\bin\Debug\News_Adapter.pdb
+D:\Tez\Web\News_yedek\News_Adapter\bin\Debug\News_Model.dll
+D:\Tez\Web\News_yedek\News_Adapter\bin\Debug\Newtonsoft.Json.dll
+D:\Tez\Web\News_yedek\News_Adapter\bin\Debug\News_Model.pdb
+D:\Tez\Web\News_yedek\News_Adapter\bin\Debug\Newtonsoft.Json.xml
+D:\Tez\Web\News_yedek\News_Adapter\obj\Debug\News_Adapter.csproj.AssemblyReference.cache
+D:\Tez\Web\News_yedek\News_Adapter\obj\Debug\News_Adapter.csproj.CoreCompileInputs.cache
+D:\Tez\Web\News_yedek\News_Adapter\obj\Debug\News_Adapter.csproj.CopyComplete
+D:\Tez\Web\News_yedek\News_Adapter\obj\Debug\News_Adapter.dll
+D:\Tez\Web\News_yedek\News_Adapter\obj\Debug\News_Adapter.pdb
